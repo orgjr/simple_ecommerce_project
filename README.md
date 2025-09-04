@@ -50,31 +50,34 @@ simple_ecommerce_project/
    python -m venv venv
    source venv/bin/activate   # Linux/Mac
    venv\Scripts\activate      # Windows
-   pip install django
-   ```
-   
-3. **Install frontend dependencies**
-   ```
-   npm install
-   ```
-   
-4. **Run database migrations**
-   ```
-   python manage.py migrate
+   pip install -r requirements.txt
    ```
 
-5. **Create a superuser**
+3. **Create a superuser**
    ```
    python manage.py createsuperuser
    ```
    
-6. **Start the development server**
+4. **Start the development server**
    ```
    python manage.py runserver http://127.0.0.1:8000
    ```
    
+5. **Users for test**
+   ```
+   User: user1 
+   pass: blabla12
+   ```
+   ```
+   admin: adm
+   pass: 123
+   ```
+   
 ## 🌐 Usage
 - Open http://127.0.0.1:8000 to access the app.
+- http://127.0.0.1:8000/admin             `# django default administration panel
+- http://127.0.0.1:8000/login             `# user login page
+- http://127.0.0.1:8000/cart_detail/      `# cart itens list page
 - Log in with your superuser account.
 - Add products via the Django Admin panel.
 - Test adding products to the cart.
