@@ -43,27 +43,27 @@ simple_ecommerce_project/
    ```
    git clone https://github.com/your-username/my_project.git
    cd my_project
-Create a virtual environment & install dependencies
+2. **Create a virtual environment & install dependencies**
 ```
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 pip install django
 ```
-Install frontend dependencies
+3. **Install frontend dependencies**
 
 ```
 npm install
 ```
-Run database migrations
+4. **Run database migrations**
 ```
 python manage.py migrate
 ```
-Create a superuser
+5. **Create a superuser**
 ```
 python manage.py createsuperuser
 ```
-Start the development server
+6. **Start the development server**
 ```
 python manage.py runserver http://127.0.0.1:8000
 ```
