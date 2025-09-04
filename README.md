@@ -67,20 +67,14 @@ python manage.py createsuperuser
 ```
 python manage.py runserver http://127.0.0.1:8000
 ```
-🌐 Usage
-Open http://127.0.0.1:8000 to access the app.
+## 🌐 Usage
+- Open http://127.0.0.1:8000 to access the app.
+- Log in with your superuser account.
+- Add products via the Django Admin panel.
+- Test adding products to the cart.
 
-Log in with your superuser account.
-
-Add products via the Django Admin panel.
-
-Test adding products to the cart.
-
-📦 Future Improvements
-Payment gateway integration.
-
-Product images and categories.
-
-REST API with Django REST Framework.
-
-Docker deployment.
+## 📦 Future Improvements
+- Payment gateway integration.
+- Product images and categories.
+- REST API with Django REST Framework.
+- Docker deployment.
