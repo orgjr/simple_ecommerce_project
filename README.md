@@ -16,17 +16,15 @@ It provides user authentication, product management, and a shopping cart system.
 ---
 
 ## 📂 Project Structure
-
-my_project/
+```
+simple_ecommerce_project/
 │── core/ # Main application
 │ ├── models.py # Database models: Customer, Product, Cart, Order
 │ ├── views.py # Views: product listing, add to cart, etc.
 │ ├── templates/core/ # HTML templates
 │── manage.py # Django management script
 │── package.json # Frontend dependencies (Bootstrap)
-
-yaml
-Copiar código
+```
 
 ---
 
@@ -42,38 +40,33 @@ Copiar código
 ## 🚀 Installation & Setup
 
 1. **Clone the repository**
-   ```bash
+   ```
    git clone https://github.com/your-username/my_project.git
    cd my_project
 Create a virtual environment & install dependencies
-
-bash
-Copiar código
+```
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
-
 pip install django
+```
 Install frontend dependencies
 
-bash
-Copiar código
+```
 npm install
+```
 Run database migrations
-
-bash
-Copiar código
+```
 python manage.py migrate
+```
 Create a superuser
-
-bash
-Copiar código
+```
 python manage.py createsuperuser
+```
 Start the development server
-
-bash
-Copiar código
-python manage.py runserver
+```
+python manage.py runserver http://127.0.0.1:8000
+```
 🌐 Usage
 Open http://127.0.0.1:8000 to access the app.
 
