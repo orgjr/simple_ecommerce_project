@@ -59,9 +59,9 @@ simple_ecommerce_project/
    ```
    
 4. **Run database migrations**
-```
-python manage.py migrate
-```
+   ```
+   python manage.py migrate
+   ```
 
 5. **Create a superuser**
    ```
