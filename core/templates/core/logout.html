@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Logout</title>
+    <link rel="stylesheet" href="{% static 'core/css/bootstrap.min.css' %}" />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f8f9fa;
+      }
+      .logout-card {
+        width: 100%;
+        max-width: 400px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logout-card">
+      <h3 class="mb-3">Até logo! 👋</h3>
+      <p class="mb-4">Você saiu da sua conta com sucesso.</p>
+      <a href="{% url 'home' %}" class="btn btn-primary w-100">
+        Voltar para a página inicial
+      </a>
+    </div>
+
+    <script src="{% static 'core/js/bootstrap.bundle.min.js' %}"></script>
+  </body>
+</html>
