@@ -60,7 +60,7 @@ simple_ecommerce_project/
    
 4. **Start the development server**
    ```
-   python manage.py runserver http://127.0.0.1:8000
+   python manage.py runserver 127.0.0.1:8000
    ```
    
 5. **Users for test**
